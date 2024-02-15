@@ -59,7 +59,7 @@ function App() {
 
             <br />
 
-            <ul className="flex flex-1 flex-col items-start flex-row gap-4">
+            <ul className="flex flex-1 flex-col items-start gap-4">
               {state.map((task)=>(
                 <li key={task.id} className="flex items-center justify-start gap-7">
                   <button onClick={()=>dispatch({type:'remove', id:task.id})} className="text-pink-800 text-lg">remove</button>
