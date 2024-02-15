@@ -19,23 +19,8 @@ Este projeto tem como objetivo criar uma aplicação simples de lista de tarefas
 ## Tecnologias
 
 ### Frontend:
-- HTML5
-- CSS3
-- JavaScript (com ou sem frameworks como React, Vue, Angular)
+- React
 
-### Backend:
-- Node.js (ou outra tecnologia de sua escolha)
-- Express (opcional, dependendo da complexidade)
-
-### Banco de Dados:
-- SQLite, MongoDB, ou outro banco de dados de sua escolha para armazenar as tarefas.
-
-## Estrutura do Banco de Dados
-A estrutura básica do banco de dados pode incluir uma tabela chamada `tasks` com os seguintes campos:
-
-- `id` (identificador único da tarefa)
-- `title` (título da tarefa)
-- `description` (descrição da tarefa)
 
 ## Interface do Usuário
 A interface deve ser amigável e incluir:
@@ -54,8 +39,7 @@ A interface deve ser amigável e incluir:
 ## Execução do Projeto
 1. Clone o repositório.
 2. Instale as dependências necessárias (se houver).
-3. Execute o servidor local (backend).
-4. Acesse a aplicação através do navegador.
+3. Acesse a aplicação através do npm  run dev.
 
 ## Desenvolvimento Futuro
 - Adição de funcionalidades avançadas, como edição de tarefas e categorização.
